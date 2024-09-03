@@ -1,0 +1,81 @@
+@charset "ISO-8859-1";
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+* {
+	font-family: 'Titillium Web', sans-serif;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	width:100%;
+	height:100%;
+	text-align:center;
+}
+
+.main {
+	position:absolute;
+	left:50%;
+	top:50%;
+	transform:translate(-50%, -50%);
+}
+
+
+.navbar{
+	width:100%;
+	height:90px;
+	display:flex;
+	justify-content:space-between;
+	align-items:center;	
+	padding: 50px 25px; 
+}
+
+.navbar .left{
+	width:40%;
+	display:flex;
+	flex-direction:row;
+	align-items:center;
+}
+
+.navbar .left .name {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    line-height: 17px;
+}
+
+.navbar .left .name h1{
+	font-size:20px;
+}
+
+.navbar .left .name h3{
+	font-size:15px;
+}
+
+.navbar .left img{
+	height:40px;
+	width:40px;
+	margin-right:10px;
+}
+
+.navbar .right a{
+	font-size:15px;
+	text-decoration:none;
+	background:#F77F00;
+	color:white;
+	padding: 8px 20px;
+	transition:all ease-in-out 0.3s;
+}
+
+.navbar .right a:hover{
+	box-shadow: 5px 5px #003049;
+	transform:translateX(4px);
+}
+
+.navbar .right img{
+	height:40px;
+	width:40px;
+	/* margin-right:10px; */
+}
