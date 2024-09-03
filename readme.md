@@ -43,7 +43,7 @@ E-Voting/
 
 1. **Clone the Repository**:
     ```bash
-    git clone https://github.com/Sanket2004/e-voting.git
+    git clone https://github.com/Sanket2004/E-Voting.git
     cd e-voting
     ```
 
